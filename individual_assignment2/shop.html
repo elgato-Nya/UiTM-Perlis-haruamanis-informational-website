@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Harumanis Mango Store</title>
+    <link rel="stylesheet" href="shop-styles.css">
+    <script src="shop-scripts.js" defer></script>
+</head>
+<body>
+    <header>
+        <h1>Harumanis Mango Store</h1>
+        <button id="checkCartButton">Check Cart</button>
+    </header>
+    <main>
+        <section id="productList">
+            <!-- Product cards will be dynamically generated -->
+        </section>
+    </main>
+    <div id="cartPopup" class="hidden">
+        <div class="cart-content">
+            <h2>Cart Receipt</h2>
+            <div id="cartItems"></div>
+            <p id="grandTotal"></p>
+            <button id="closeCartButton">Close</button>
+        </div>
+    </div>
+</body>
+</html>
